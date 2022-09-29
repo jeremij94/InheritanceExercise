@@ -34,6 +34,29 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+            
+            Bird bird1 = new Bird()
+            {
+                Name = "Osprey",
+                Vertebrae = true,
+                NumberOFLegs = 2,
+                Diet = "Mainly fish",
+                Feathered = true,
+                CanFly = true,
+                Habitat = "Anywhere near water",
+                EggColor = "Creamy-white to a pinkish-cinnamon, and eggs usually are marked with reddish browns spots"
+            };
+
+            Reptile reptile1 = new Reptile();
+
+            reptile1.Name = "Blue iguana, AKA (the Grand Cayman ground iguana, Grand Cayman blue iguana or Cayman Island rock iguana)";
+            reptile1.Vertebrae = true;
+            reptile1.NumberOFLegs = 4;
+            reptile1.Diet = "Primarily herbivorous (occasionally small crustaceans and insects)";
+            reptile1.ColdBlooded = true;
+            reptile1.Amphibious = false;
+            reptile1.Venomous = "mildly";
+            reptile1.Scales = "dusky-blue to gray with cross bands that are often barely visible, more vivid during mating season";
         }
     }
 }
